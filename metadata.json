@@ -1,0 +1,8 @@
+{
+  "uuid": "gotify@makario1337.github.io",
+  "name": "Gotify",
+  "description": "Gotify messages in the panel: an unread counter or notifications, and a messages window with categories.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.gotify",
+  "url": "https://github.com/Makario1337/gnome-shell-extension-gotify"
+}

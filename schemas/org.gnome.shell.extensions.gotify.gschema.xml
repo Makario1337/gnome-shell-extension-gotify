@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gotify" path="/org/gnome/shell/extensions/gotify/">
+    <key name="server-url" type="s">
+      <default>''</default>
+      <summary>Gotify server URL</summary>
+    </key>
+    <key name="delivery-mode" type="s">
+      <choices>
+        <choice value="badge"/>
+        <choice value="notifications"/>
+      </choices>
+      <default>'notifications'</default>
+      <summary>Counter only, or notifications as well</summary>
+    </key>
+    <key name="autostart" type="b">
+      <default>true</default>
+      <summary>Connect automatically at login</summary>
+    </key>
+    <key name="last-read-id" type="x">
+      <default>0</default>
+      <summary>Highest message ID that has been read</summary>
+    </key>
+    <key name="last-seen-id" type="x">
+      <default>0</default>
+      <summary>Highest message ID the extension has processed</summary>
+    </key>
+    <key name="token-revision" type="u">
+      <default>0</default>
+      <summary>Incremented when the token in the keyring changes</summary>
+    </key>
+  </schema>
+</schemalist>
