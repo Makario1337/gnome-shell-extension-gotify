@@ -87,3 +87,8 @@ To remove it again, run `make uninstall`.
 The shell and the messages window share the read position through GSettings (`last-read-id`).
 
 `make pack` builds the extension bundle, and `make clean` removes build output.
+
+## License
+
+Licensed under the GNU General Public License, version 2 or (at your option) any later version.
+See [LICENSE](LICENSE) for the full text.
