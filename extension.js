@@ -30,6 +30,7 @@ export default class GotifyExtension extends Extension {
         // disable() also runs when the screen locks, so a messages window that
         // is open stays untouched: it is a separate application.
         this._settings.disconnectObject(this);
+        this._service.disconnectObject(this);
         this._indicator.destroy();
         this._indicator = null;
         this._notifier.destroy();

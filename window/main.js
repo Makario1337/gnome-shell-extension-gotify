@@ -1,3 +1,4 @@
+#!@GJS@ -m
 // The messages window. Runs as a separate process, see openMessages() in
 // extension.js. Gio.Application uniqueness keeps it to a single instance.
 import Adw from 'gi://Adw?version=1';
